@@ -1,10 +1,21 @@
 
     body {
       background-color: rgb(111, 228, 164); 
+      padding: 3%;
+      border: 10px solid black;
     }
 
-    .meuNome, .descricao {
+    .meuNome {
       font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+
+    }
+
+    .descricao {
+      font-family: Arial, Helvetica, sans-serif;
+      position: absolute;
+      top: 43%;
+      right: 10%;
     }
 
     em {
@@ -30,4 +41,25 @@
     .metoAgil {
       font-size: 12px;
     }
-  
+
+    .foto{
+      float: left;
+      height: 360px;
+      padding: 10px;
+      background-color: rgb(130, 211, 9);
+    }
+
+    .image-container{
+      height: 380px;
+      position: relative;
+    }
+
+    ul li:nth-child(odd) {
+      color: rgb(241, 237, 1);
+    }
+
+    .sobre{
+      position: absolute;
+      top: 25%;
+      left: 50%;
+    }
