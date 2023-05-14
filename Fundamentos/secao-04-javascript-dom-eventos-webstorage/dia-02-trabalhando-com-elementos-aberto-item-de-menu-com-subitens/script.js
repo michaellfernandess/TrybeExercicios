@@ -15,3 +15,6 @@ const textElement = whereAreYou.nextSibling;
 const thirdChild = whereAreYou.nextElementSibling;
 
 const thirdChild2 = parent.lastElementChild.previousElementSibling;
+
+const  xablau = xablin; 
+
